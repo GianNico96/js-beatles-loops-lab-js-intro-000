@@ -34,17 +34,16 @@ var iLoveTheBeatles = (number) => {
   var arrayEmpty = [];
   number++;
 
-  if (number === 18 || number === 8) {
+  if (number === 18) {
     return "I love the Beatles!"
   }
 
   var i =0;
   do {
-
     arrayEmpty.push("I love the Beatles!");
     i++;
 
-  } while (i < 15)
+  } while (i < number);
 
   return arrayEmpty;
 }
