@@ -24,6 +24,7 @@ var johnLennonFacts = (fact) =>{
   while (fact.length > 0) {
      arrayEmpty.push(fact[i]+ "!!!");
      i++;
+     fact.length --;
   }
   return arrayEmpty;
 }
