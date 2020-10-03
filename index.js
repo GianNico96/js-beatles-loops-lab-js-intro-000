@@ -30,7 +30,7 @@ var johnLennonFacts = (fact) =>{
   return arrayEmpty;
 }
 
-var theBeatlesPlay = (number) => {
+var iLoveTheBeatles = (number) => {
   var arrayEmpty = [];
   number++;
   var i =0;
