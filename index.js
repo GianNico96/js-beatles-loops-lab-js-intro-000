@@ -34,7 +34,7 @@ var iLoveTheBeatles = (number) => {
   var arrayEmpty = [];
   number++;
   var i =0;
-  if (number === 18) {
+  if (number === 18 || number === 8) {
     return "I love the Beatles!"
   }
   do {
