@@ -33,11 +33,12 @@ var johnLennonFacts = (fact) =>{
 var iLoveTheBeatles = (number) => {
   var arrayEmpty = [];
   number++;
-  var i =0;
 
   if (number === 18 || number === 8) {
     return "I love the Beatles!"
   }
+  
+  var i =0;
   do {
 
     arrayEmpty.push("I love the Beatles!");
