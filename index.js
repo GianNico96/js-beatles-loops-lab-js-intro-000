@@ -32,7 +32,7 @@ var johnLennonFacts = (fact) =>{
 
 var theBeatlesPlay = (number) => {
   var arrayEmpty = [];
-  num++;
+  number++;
   if (number === 18) {
     return "I love the Beatles"
   }
