@@ -5,7 +5,7 @@ const instruments = [ "guitarra" ,  "batería" ,  "piano" ,  "bajo" ]
 var theBeatlesPlay = (musicians,instruments) => {
   let action = [];
   for (var i = 0; i < musicians.length; i++) {
-     action.push(musicians[i]+ "plays" +instruments[i]);
+     action.push(musicians[i]+ " plays " +instruments[i]);
   }
   return action;
 }
