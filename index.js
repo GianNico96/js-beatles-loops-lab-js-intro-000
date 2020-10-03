@@ -19,7 +19,7 @@ const facts = [
 
 var johnLennonFacts = (fact) =>{
   let array = [];
-  let newArray = facts.length;
+  let newArray = fact.length;
   var i = 0;
 
   while (true) {
