@@ -21,8 +21,8 @@ var johnLennonFacts = (fact) =>{
   let array = [];
   let newArray = facts.length;
   var i = 0;
-  
+
   while (true) {
-    
+
   }
 }
