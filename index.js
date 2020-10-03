@@ -34,7 +34,7 @@ var theBeatlesPlay = (number) => {
   var arrayEmpty = [];
   number++;
   if (number === 18) {
-    return "I love the Beatles"
+    return "I love the Beatles!"
   }
   do {
     var i =0;
