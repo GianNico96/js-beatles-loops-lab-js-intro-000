@@ -29,3 +29,19 @@ var johnLennonFacts = (fact) =>{
   }
   return arrayEmpty;
 }
+
+var theBeatlesPlay = (number) => {
+  var arrayEmpty = [];
+  num++;
+  if (number === 18) {
+    return "I love the Beatles"
+  }
+  do {
+    var i =0;
+    arrayEmpty.push("I love the Beatles!");
+    i++;
+    
+  } while (i < 15);
+  
+  return arrayEmpty;
+}
