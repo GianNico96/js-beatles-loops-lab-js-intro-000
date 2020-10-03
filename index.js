@@ -18,11 +18,13 @@ const facts = [
 ];
 
 var johnLennonFacts = (fact) =>{
-  let array = [];
-  let newArray = fact.length;
+  var arrayEmpty = [];
+  var arrayFacts = fact.length;
   var i = 0;
 
-  while (true) {
-
+  while (arrayFacts > 0) {
+     arrayEmpty.push(fact[i]+ "!!!");
+     i++;
   }
+  return arrayEmpty;
 }
