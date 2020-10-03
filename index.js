@@ -18,8 +18,8 @@ const facts = [
 ];
 
 var johnLennonFacts = (fact) =>{
-  var arrayEmpty = [];
   var arrayFacts = fact.length;
+  var arrayEmpty = [];
   var i = 0;
 
   while (arrayFacts > 0) {
