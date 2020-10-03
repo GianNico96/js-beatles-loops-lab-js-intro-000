@@ -40,8 +40,8 @@ var theBeatlesPlay = (number) => {
     var i =0;
     arrayEmpty.push("I love the Beatles!");
     i++;
-    
+
   } while (i < 15);
-  
+
   return arrayEmpty;
 }
